@@ -1,0 +1,22 @@
+When dealing with aribitrary shaped clusters and clusters within clusters traditional clustering might not be able to achieve good result.
+
+** K-Means vs density-based clustering
+----------------------------------------
+K-Means assigns all points to a cluster even if they do not belong to any
+
+Density based clustering locates regions with high density, and seperates outliers
+
+* DBSCAN is particularly effective for class identification on a spatial context.
+
+** What is DBSCAN?
+ - DBSCAN (Density Based Spatial Of Application With Noise)
+  . one of the most used clustering
+  . based on densith of object
+ It works based on 2 parameters:
+  > R (Radius of neighborhood)
+  > M (Minimun number of neighbors)
+
+  * So, what is a core point?
+ -A data point is a core point if within our neighborhood of the point there are at least M points.
+ * What is a border point?
+A data point is a border point if A; its neighbourhood contains less than M data points or B; it is reachable from some core point.

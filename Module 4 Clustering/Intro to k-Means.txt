@@ -1,0 +1,15 @@
+
+K-Means algorithm
+------------------
+. Partitioning clustering 
+. K- means divides the data in non-overlaping subsets(cluster) without any cluster internal cluster
+
+Distance = euclidian distance(sqrt((x-x')^2+...))
+
+** K-Means Clustering algorithm
+---------------------------------
+1. Randomly placing k centroids, one for each cluster.
+2. Calculate the distance of each point from each centroid.
+3. Assign each data point (object) to its closest centroid, creatig a cluster.
+4. Recalculate the position of k centroids.
+5. Repeat the steps 2-4, untill the centroids no longer move.

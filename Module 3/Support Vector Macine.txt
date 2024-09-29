@@ -1,0 +1,73 @@
+** What is Support Vector Macine?
+- SVM is a supervised algirithm that classifies cases by finding a separator.
+1. Mapping data to high-dimensional feature space
+2. Finding a separator
+
+
+** Mapping data to higher dimensional space is called Kernelling. The mathmatical function used for transformation 
+is known as the kernel function, and can be of different types:
+ . Linear
+ . Polynomial
+ . RBF (Radial Basis Function)
+ . Sigmoid
+
+
+** How do we find the right or optimized separator after transformation(eg plot)?
+ . So finding the optimized hyperplane can be formalized using an equation which
+involves quite a bit more math (search google).
+
+
+
+**  Pros and Cons of SVM
+ * Advantages:
+    . Accurate in high demensional spaces
+    . Memory efficient
+ * Disadvantages:
+    . Prone to over-fitting (over-fitting if the number of features is much greater than the number of samples.)
+    . No probability estimation
+    . Small datasets (not efficient of the dataset is big eg > 1,000)
+
+** Application
+   . Image Recognition
+   . Hand written digits Recognition
+   . In text mining tasks
+   . Detecting spam
+   . Sentiment Analysis
+   . Gene Expression Classification
+   . Regression , Outlier detection and clustering
+
+
+
+
+
+CHATGPT
+when to use logistic regression vs linear regression vs SMV? 
+
+
+ChatGPT said:
+ChatGPT
+Choosing between logistic regression, linear regression, and Support Vector Machines (SVM) depends on the nature of your data and the problem you’re trying to solve. Here’s a quick guide:
+
+Linear Regression
+
+Use When: You want to predict a continuous dependent variable.
+Example: Predicting house prices based on features like size, location, etc.
+Characteristics: Assumes a linear relationship between the dependent and independent variables.
+
+Logistic Regression
+
+Use When: You want to predict a binary outcome (0 or 1).
+Example: Predicting whether an email is spam (1) or not (0).
+Characteristics: Uses the logistic function to model the probability of the binary outcome, making it suitable for classification tasks.
+
+Support Vector Machines (SVM)
+
+Use When: You need a powerful classifier, especially in high-dimensional spaces or with non-linear boundaries.
+Example: Classifying images, text categorization, or other complex patterns.
+Characteristics: Works by finding the optimal hyperplane that maximizes the margin between classes. SVM can also use kernel functions to handle non-linear relationships.
+
+Summary
+
+Linear Regression: Continuous outcomes.
+Logistic Regression: Binary outcomes.
+SVM: Complex classification tasks, especially with non-linear relationships

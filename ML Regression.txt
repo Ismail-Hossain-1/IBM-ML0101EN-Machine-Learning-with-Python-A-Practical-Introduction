@@ -1,0 +1,99 @@
+
+
+Multiple linear Regession
+-------------------------
+Basically, adding too many independent variables without
+any theoretical justification may result in an overfit model.
+An overfit model is a real problem because it is too
+complicated for your data set and not general enough to be used for prediction.
+So, it is recommended to avoid using many variables for prediction.
+
+
+There are a number of ways to check for linear relationship.
+For example, you can use scatter plots and then visually checked for linearity.
+If the relationship displayed in your scatter plot is not linear,
+then you need to use non-linear regression.
+
+
+Non-Linear regression
+----------------------------
+(polynomial regression)
+
+That is, in non-linear regression,
+a model is non-linear by parameters.
+
+
+When to Use the Logistic Function
+Binary Outcomes: If your outcome variable is binary (e.g., yes/no, 0/1, success/failure),
+ the logistic function is appropriate. It models the probability of one of the two possible outcomes.
+
+Probability Estimation: Use the logistic function when you need to predict probabilities
+ that are constrained between 0 and 1. For example, predicting the likelihood of a customer purchasing a product.
+
+The formula for the logistic function is the following:
+
+$$ \hat{Y} = \frac1{1+e^{-\beta_1(X-\beta_2)}}$$
+
+$\beta_1$: Controls the curve's steepness,
+
+$\beta_2$: Slides the curve on the x-axis.
+
+
+
+Classification
+-------------------------------
+In this lesson you will learn to:
+
+List different Classification methods.
+Explain how classification and classifiers work.
+Apply Classification algorithms on various data sets to solve real world problems.
+Explain evaluation methods and metrics in Classification.
+Utilize a confusion matrix to see the accuracy of Classifiers.
+Run inference and assess the quality of the trained models.
+Describe K-Nearest Neighbors.
+Describe how decision trees are built and how to use them.
+Build a decision tree.
+Describe Logistic Regression and Support Vector Machines (SVM).
+Perform basic data preprocessing using Scikit-Learn.
+Model a Classification task using the Scikit-Learn and Snap ML Python APIs.
+Train Suppport Vector Machine and Decision Tree models using Scikit-Learn and Snap ML.
+
+Classification Algorithams in ML:
+- Decision Trees( ID3, C4.5, C5.0)
+- Naive Bayes
+- Linear Discriminant Analysis
+- K-Nearset Neighbors
+- Logistic Regression
+- Neural Ntworks
+- Support Vector Machines (SVM)
+
+    * Accuracy Measurement
+    - Jaccard Index ((y cap y')/ (y cup y'))
+    - F1 - score = (2x((prex rec)/(pre+rec))) [precision= TP/(TP+FP), recall= TP/ (TP+FP) ]
+    - Log loss( - ((1/n ) Summation(y x log(y')+(1-y)x (log(1-y')))))
+
+    The StandardScaler is used to standardize your data.
+     This means it adjusts the values in your data so they have a mean of 0 and a standard deviation of 1.
+
+
+
+
+
+
+.
+.
+.
+.
+.
+-----------------------------
+Logistic Regession
+-------------------
+logistic regression is a classification algorithm for categorical variables. (for binary outcome)
+ 
+  Application
+  - Predicting the probability of a person having a heart attack
+  - Predicting the mortality of a injured patient.(observed characteristics of that patient such as weight,
+        height, blood pressure, and results of various blood tests and so on.)
+  - Predicting a customer's propensity to purchase a product or halt a subscription
+  - Predicting the probability of failure of a given process or product
+  - Predicting the likelihood of a homeowner defaulting on a mortgage 

@@ -1,0 +1,28 @@
+. Summarize the purpose and the mechanism of recommendation system
+. Explain what a content-based recommender system is
+. Describe the different types of recommneder system.
+. Implement recommender systems on a real dataset.
+. Define collective filtering.
+
+
+** Advantages of recommender system
+------------------------------------
+. Boarder exposure
+. Possibiliyt of continual usage or purchase of products
+. Provides better experience
+
+** 2 types of recommender system
+
+1. Content based
+2. Collaborative filtering (find similar groups of users, and provide recommendations based on similar tastes within a group)
+
+** Implementating recommender systems
+--------------------------------------
+. Memory-based
+    . Uses the entire user-item dataset to generate a recommendation
+    . Uses statistical techniques to approximate users or items e.g.Pearson Correlation, Cosine Similarity, Eucledian distance
+
+. Model based
+    . Develops a model of users in an attempt to learn their preferences
+    . Models can be created using Machine Learnign techniques like regression, clustering, classification etc.
+    

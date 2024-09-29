@@ -1,0 +1,18 @@
+General Cost Function
+----------------------
+The cost function is the difference between actual values of Y and model's output.
+
+cost function (y, y')= 1/2*(y'-y)^2
+- How to find the best parameters for model? :- Minimize the cost function
+- How to minimize the cost function ? :- Using Gradient Descent
+- What is gradient discent? :- A technique to use the derivative of the cost function to change the parameters values, 
+   in order to minimize the cost.
+
+Training algorithm
+--------------------
+1. Initialize the parameters randomly.
+2. Feed the cost function with training set, and calculate the error.
+3. Calcualte the gradient of the cost function.
+4. Update the weights with new values.
+5. Go to step to untill the cost is small enough.
+6. Predict the new customer X.

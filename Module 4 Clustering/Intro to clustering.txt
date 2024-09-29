@@ -1,0 +1,52 @@
+Clustering means finding clusters in a dataset, unsupervised.
+
+** What is a cluster?
+ -  A group of objects that is similar to other objects in the cluster, and dissimilar
+    to data points in other clusters.
+
+** Difference between Clustering and classification
+ # classification
+  - predicts categorical classed labels(means assigning instance to predefined classes) 
+  - Generally, classification is a supervised learning where each data instance belongs to a particular class.
+
+ # Clustering
+  - Data is unlabeled and the process is unsupervised.
+
+
+Application:
+
+- Retail/ Marketing
+ . Identifying buying patterns of customers.
+ . Recomending new books or movies to new customers.
+- Banking
+ . Fraud detection in credit card use.
+ . Identifying clusters fo customers (eg loyal)
+- Insurance
+ . Fraud detection in claims analysis
+ . Insurance risk of customers
+- Publication
+ . Auto-categorizing news based on their content
+ . Recomending similar news articals
+- Medicine
+ . Characterizing patients behavior
+- Biology
+ . Clusterging genetic markers to identify family ties
+
+
+ ** Why clustering 
+ - Exploratory data analysis
+ - Summary generation
+ - Outlier detection
+ - Finding duplicates(fraud)
+ - pre-processing steps
+
+ ** Clustering algorithms
+  - Partitioned-based clustering
+   . Relatively efficient
+   . eg K-means, k-Median, Fuzzy c-means
+  - Heirarchial clustering
+   . produces tree cluster
+   . Agglomerative, Divisive
+  - Density-based Clustering
+   . produces arbitary shaped cluster
+   . eg DBSCAN

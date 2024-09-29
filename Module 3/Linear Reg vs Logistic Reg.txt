@@ -1,0 +1,3 @@
+The goal of logistic regression is to build a model to predict the class of
+each customer and also the probability of each sample belonging to a class.
+

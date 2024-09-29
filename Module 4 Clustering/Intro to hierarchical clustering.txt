@@ -1,0 +1,65 @@
+Dendogram :- A dendogram is a diagram that shows the arrangement of the 
+            clusters produced by hierarchial clustering.
+
+** Hierarchical Clustering
+---------------------------
+Hierarchial clustering algorithm builds a hierarchy of clusters where each node is a cluster
+consists of clusters of its daughter node.
+
+* Strategies for hierarchial clustering
+------------
+    1. Divisive (top down)
+    2. Agglomerative (bottom up)
+
+
+**Agglomerative algorithm
+---------------------------
+
+1. Create n cluster,one for each datapoint.
+2. Compute the proximity matrix (nXn)
+3. Repeat:
+        i. Merge the two closest clusters.
+        ii. Update the proximity matrix.
+4. Until only a single cluster remains.
+
+
+* How to find closest clusters
+Distance between clusters
+--------------------------------
+ . Single-Linkage Clustering
+    . Minimum distance between clusters.
+ . Complete-Linkage Clustering
+    . Maximum distance between clusters.
+ . Average Linkage Clustering
+    . Average distance between clusters.
+ . Centroid Linkage Clustering
+    . Distance between cluster centroids
+
+
+Advantages vs disadvantages
+----------------------------
+Advantages:-
+ - Doesn't not require the number of clusters to be specified.
+ - Easy to implement
+ - Produces a dendogram, which helps with understanding the data.
+Disadvantages :-
+ - Can never undo the previous steps throughout the algorithm
+ - Generally has long runtimes.
+ - Sometimes difficult to understand the number of clusters by the dendogram.
+
+
+ ** Hierarchial Clustering vs K-Means
+ ---------------------------------------
+ K-Means
+ ..........
+ 1. Much more efficient
+ 2. Requires the number to be specified
+ 3. Gives only one partitioning of the data based on the predefinded number of clusters
+ 4. Potentially returns different clusters each time it is due to random initialization of centroids
+
+ Hierarchial Clustering
+ ......................
+ 1. Can be slow for large datasets
+ 2. Does not require the number of clusters to run
+ 3. Gives more than one partitioning depending on the resolution
+ 4. Always generates the same clusters

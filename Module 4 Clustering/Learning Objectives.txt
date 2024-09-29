@@ -1,0 +1,10 @@
+** In this lesson we get to learn:
+    . Recognize different types of clustering algorithms
+    . Apply culstering on differnt types of data sets
+    . Explain the difference between clustering and classification
+    . Discuss real world application of clustering
+    . Explain what K-Mean algorithms are
+    . Calculate the distance between two clusters
+    . Describe the two strategies for hierarchial clustering
+    . Describe what DBSCAN
+    . Explain what a core point is.
